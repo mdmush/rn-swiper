@@ -633,21 +633,21 @@ export default class extends Component {
   }
 
   renderScrollView = pages => {
-    if (Platform.OS === 'ios') {
-      return (
-        <ScrollView ref={this.refScrollView}
-          {...this.props}
-          {...this.scrollViewPropOverrides()}
-          contentContainerStyle={[styles.wrapperIOS, this.props.style]}
-          contentOffset={this.state.offset}
-          onScrollBeginDrag={this.onScrollBegin}
-          onMomentumScrollEnd={this.onScrollEnd}
-          onScrollEndDrag={this.onScrollEndDrag}
-          style={this.props.scrollViewStyle}>
-          {pages}
-        </ScrollView>
-       )
-    }
+    // if (Platform.OS === 'ios') {
+    //   return (
+    //     <ScrollView ref={this.refScrollView}
+    //       {...this.props}
+    //       {...this.scrollViewPropOverrides()}
+    //       contentContainerStyle={[styles.wrapperIOS, this.props.style]}
+    //       contentOffset={this.state.offset}
+    //       onScrollBeginDrag={this.onScrollBegin}
+    //       onMomentumScrollEnd={this.onScrollEnd}
+    //       onScrollEndDrag={this.onScrollEndDrag}
+    //       style={this.props.scrollViewStyle}>
+    //       {pages}
+    //     </ScrollView>
+    //    )
+    // }
     return (
       <ViewPager ref={this.refScrollView}
         {...this.props}
