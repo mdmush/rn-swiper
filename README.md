@@ -300,11 +300,10 @@ And now that this project follows the [standard](https://github.com/feross/stand
 
 ## Contribution
 
-- [@leecade](mailto:leecade@163.com) The main author.
-- [@rajkissu](mailto:rajkissu@gmail.com) The secondary contributor.
+- [@mdmush](mailto:mdmushbusiness@gmail.com) The main author.
 
 ## Questions
 
-Feel free to [contact me](mailto:leecade@163.com) or [create an issue](https://github.com/mdmush/rn-swiper/issues/new)
+Feel free to [contact me](mailto:mdmushbusiness@gmail.com) or [create an issue](https://github.com/mdmush/rn-swiper/issues/new)
 
 > Inspired by [nolimits4web/Swiper](https://github.com/nolimits4web/swiper/) & Design material from [Dribbble](https://dribbble.com/) & made with ♥.
